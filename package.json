@@ -1,0 +1,36 @@
+{
+  "name": "homeassistant-rx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niecore/homeassistant-rx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niecore/homeassistant-rx/issues"
+  },
+  "homepage": "https://github.com/niecore/homeassistant-rx#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "kefir": "^3.8.8",
+    "ramda": "^0.27.1",
+    "ws": "^8.4.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {},
+    "moduleFileExtensions": ["mjs", "js", "jsx", "ts", "tsx", "json", "node"],
+    "testMatch": [
+      "**/?(*.)test.?js"
+    ]
+  }
+}
