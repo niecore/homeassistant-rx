@@ -2,9 +2,9 @@
   "name": "homeassistant-rx",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/main.js",
+  "main": "lib/homeassistant-rx.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,15 @@
   "jest": {
     "testEnvironment": "jest-environment-node",
     "transform": {},
-    "moduleFileExtensions": ["mjs", "js", "jsx", "ts", "tsx", "json", "node"],
+    "moduleFileExtensions": [
+      "mjs",
+      "js",
+      "jsx",
+      "ts",
+      "tsx",
+      "json",
+      "node"
+    ],
     "testMatch": [
       "**/?(*.)test.?js"
     ]
