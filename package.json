@@ -20,6 +20,7 @@
     "debug": "^4.3.3",
     "kefir": "^3.8.8",
     "ramda": "^0.27.1",
+    "reconnecting-websocket": "^4.4.0",
     "ws": "^8.4.2"
   },
   "devDependencies": {
